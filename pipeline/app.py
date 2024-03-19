@@ -23,5 +23,7 @@ def main():
     print("Esquema del dataframe JSON 2:")
     df_json2.printSchema()
 
+    # Esto es una prueba
+
 if __name__ == "__main__":
     main()
