@@ -1,4 +1,4 @@
-# **Machine Learning Model Pipeline for Value Proposition Prediction**
+# **Model Pipeline for ML Value Proposition Prediction**
 
 ## **Description**
 
