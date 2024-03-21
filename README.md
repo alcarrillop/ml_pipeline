@@ -34,6 +34,32 @@ The expected output includes the following information:
 6. **Combine Dataframes:** Join dataframes to combine the relevant data.
 7. **Write Dataframe:** Write the resulting dataframe to a parquet file with Snappy compression.
 
+## Sample table with initial data
++-------+------------------+----------+-------+------------------+----------------+--------------------+------------------+
+|user_id|        value_prop|       day|clicked|print_count_3weeks|tap_count_3weeks|payment_count_3weeks|total_spent_3weeks|
++-------+------------------+----------+-------+------------------+----------------+--------------------+------------------+
+|   3047|  credits_consumer|2020-11-15|  false|                 1|            NULL|                NULL|              NULL|
+|   4335|  credits_consumer|2020-11-17|  false|                 1|            NULL|                   1|              23.5|
+|   8408|        link_cobro|2020-11-29|  false|              NULL|            NULL|                NULL|              NULL|
+|  14003|             point|2020-11-29|   true|              NULL|            NULL|                NULL|              NULL|
+|  20018|cellphone_recharge|2020-11-17|  false|              NULL|            NULL|                NULL|              NULL|
+|  24793|  credits_consumer|2020-11-29|  false|                 2|               1|                NULL|              NULL|
+|  24793|        link_cobro|2020-11-29|  false|                 1|            NULL|                NULL|              NULL|
+|  27016|         transport|2020-11-17|  false|              NULL|            NULL|                   1|             21.22|
+|  30916|        send_money|2020-11-25|  false|              NULL|            NULL|                NULL|              NULL|
+|  45679|cellphone_recharge|2020-11-25|  false|              NULL|            NULL|                NULL|              NULL|
+|  48531|        send_money|2020-11-15|  false|                 2|            NULL|                   1|             18.31|
+|  50331|           prepaid|2020-11-25|  false|              NULL|            NULL|                NULL|              NULL|
+|  68846|         transport|2020-11-21|   true|              NULL|            NULL|                   1|              6.13|
+|  71567|        send_money|2020-11-21|  false|              NULL|            NULL|                NULL|              NULL|
+|  71567|         transport|2020-11-21|  false|              NULL|            NULL|                   1|              1.39|
+|  82357|  credits_consumer|2020-11-21|   true|              NULL|            NULL|                   1|             24.25|
+|  85957|           prepaid|2020-11-25|  false|              NULL|            NULL|                NULL|              NULL|
+|  86246|cellphone_recharge|2020-11-29|  false|                 1|            NULL|                   1|            188.73|
+|  88073|         transport|2020-11-29|  false|              NULL|            NULL|                   1|             58.55|
+|  91283|cellphone_recharge|2020-11-17|  false|              NULL|            NULL|                NULL|              NULL|
++-------+------------------+----------+-------+------------------+----------------+--------------------+------------------+
+
 ## Code Snippet
 
 ```python
