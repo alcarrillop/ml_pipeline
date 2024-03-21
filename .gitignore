@@ -154,7 +154,7 @@ cython_debug/
 
 # data
 input/
-
+.DS_Store
 pipeline.log
 
 # PyCharm
