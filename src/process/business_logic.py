@@ -1,7 +1,4 @@
 from pyspark.sql.functions import *
-from pyspark.sql import SparkSession
-from pyspark.sql.window import Window
-
 class BusinessLogic:
     def __init__(self, spark):
         self.spark = spark
